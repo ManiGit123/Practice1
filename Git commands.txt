@@ -1,0 +1,49 @@
+config 
+1. Setting User Information
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2. Checking Current Configuration
+git config --list
+
+3. Setting the Default Editor
+git config --global core.editor "code --wait"  # For VS Code
+git config --global core.editor "nano"         # For nano
+git config --global core.editor "vim"          # For vim
+
+
+
+Common Command
+1. git branch
+    You can use the git branch command to list all of the branches in your current repository.
+2. git status
+    You can use the git status command to see which branch you are currently on and whether you have any uncommitted changes.
+3. git stash
+    If you have uncommitted changes that you want to keep, you can stash them using the git stash command. This will save your changes so that you can switch branches without losing them.
+4. git reset --hard
+    If you have uncommitted changes that you want to discard, you can use the git reset --hard command. This will reset your working directory to the state of the HEAD commit.
+
+
+
+folder setup and command
+1. git init ==> to create Git folder
+2. git clone /path/to/repository  ==> getfolder from GitHub or Local folder
+3. git add filename, git add . ===>
+4. git commit -m "message"
+5. git remote add origin https://github.com/ManiGit123/Practice1.git    ====> when changing repository
+6. git push -u -f origin main
+
+Changing Reposidory Folder 
+1. git remote set-url origin <your_github_username>/<new_repository_name>.git
+    ex: 1. git remote set-url origin https://github.com/ManiGit123/Practice1.git
+        2. git remote set-url origin https://github.com/ManiGit123/Practice2.git
+
+
+Getting Url linked with local folder
+1. git remote get-url origin
+
+Change Branch
+1. git checkout test
+2. git checkout -b feature    ==> create new and switch to Branch
+3. git checkout master ===> to change to default
+4. git checkout -   ==>prevous brach
