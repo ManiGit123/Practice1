@@ -48,5 +48,14 @@ Change Branch
 3. git checkout master ===> to change to default
 4. git checkout -   ==>prevous brach
 
+Get List of branch
+1. git branch -a ==> Allbranch with details
+2. git branch   ===> Allbranch
 
+Branch Name change 
+1. git branch -m master main
+
+Branch Merge
+1. git diff feature
+2. git merge feature
 
