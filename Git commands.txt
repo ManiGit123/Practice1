@@ -30,7 +30,7 @@ folder setup and command
 2. git clone /path/to/repository  ==> getfolder from GitHub or Local folder
 3. git add filename, git add . ===>
 4. git commit -m "message"
-5. git remote add origin https://github.com/ManiGit123/Practice1.git    ====> when changing repository
+5. git remote add origin https://github.com/ManiGit123/Practice1.git    ====> Adding new repository
 6. git push -u -f origin main
 
 Changing Reposidory Folder 
@@ -48,5 +48,14 @@ Change Branch
 3. git checkout master ===> to change to default
 4. git checkout -   ==>prevous brach
 
+Get List of branch
+1. git branch -a ==> Allbranch with details
+2. git branch   ===> Allbranch
 
+Branch Name change 
+1. git branch -m master main
+
+Branch Merge
+1. git diff feature
+2. git merge feature
 
