@@ -47,3 +47,6 @@ Change Branch
 2. git checkout -b feature    ==> create new and switch to Branch
 3. git checkout master ===> to change to default
 4. git checkout -   ==>prevous brach
+
+
+
