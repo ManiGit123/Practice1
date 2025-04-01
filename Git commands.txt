@@ -61,6 +61,16 @@ Branch Merge
 
 upstream issue when newly created
 1. git push --set-upstream origin main
+====================================
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+====================================
+
 
 Basic update file
 git add . | git add filename
