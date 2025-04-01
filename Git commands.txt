@@ -59,3 +59,10 @@ Branch Merge
 1. git diff feature
 2. git merge feature
 
+upstream issue when newly created
+1. git push --set-upstream origin main
+
+Basic update file
+git add . | git add filename
+git commit -m "message"
+git push
