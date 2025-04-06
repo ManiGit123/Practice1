@@ -73,6 +73,9 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
 Basic update file
-git add . | git add filename
-git commit -m "message"
-git push
+1. git add . | git add filename
+2. git commit -m "message"
+3. git push
+
+Roll back before commit
+1. git reset .
